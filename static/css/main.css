@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(215, 224, 235);
+}
+
+.navbar {
+    display: grid;
+    justify-content: center;
+    column-gap: 20px;
+    grid-auto-flow: column;
+}
+
+.navbar a {
+    border-color: darkred;
+    margin: 30px;
+    color:black;
+    border-style: solid;
+    padding:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+}
+
+#birds {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 14%;
+}
+
+#birds td, #birds th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#birds tr:nth-child(even){background-color: #f2f2f2;}
+
+#birds tr:hover {background-color: #ddd;}
+
+#birds th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #04AA6D;
+}
+
+table, th{
+    border: 3px solid;
+}
+
+

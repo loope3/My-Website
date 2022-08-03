@@ -1,0 +1,7 @@
+2022-05-03 22:04:15,095 INFO user_login Thread-2 : Failed login attempt, IP: 127.0.0.1
+2022-05-03 22:05:00,914 INFO user_login Thread-2 : Failed login attempt, IP: 127.0.0.1
+2022-05-03 22:05:08,772 INFO user_login Thread-2 : Failed login attempt, IP: 127.0.0.1
+2022-05-03 22:05:16,344 INFO user_login Thread-2 : Failed login attempt, IP: 127.0.0.1
+2022-05-03 22:13:32,629 INFO user_login Thread-3 : Failed login attempt, IP: 127.0.0.1
+2022-07-10 00:09:47,562 INFO user_login Thread-5 (process_request_thread) : Failed login attempt, IP: 127.0.0.1
+2022-07-10 00:10:12,395 INFO user_login Thread-7 (process_request_thread) : Failed login attempt, IP: 127.0.0.1

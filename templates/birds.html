@@ -1,0 +1,13 @@
+<!--This page shows links about birds-->
+{% extends 'page.html' %}
+
+{% block content %}
+    <div class="container">
+      <h1>Recent tweets from science new's twitter account:</h1>
+      <ul>
+        {% for tweet in tweets %}
+        <P>{{ tweet }}</P>
+        {% endfor %}
+      </ul>
+    </div>
+{% endblock %}

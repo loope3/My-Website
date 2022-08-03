@@ -1,0 +1,6 @@
+<!--This is a list of links to pages from this website-->
+<div class="navbar">
+    {% for link in nav %}
+        <a href="{{ link.url }}">{{ link.name }}</a>
+    {% endfor %}
+</div>

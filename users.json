@@ -1,0 +1,20 @@
+{
+    "Users": [
+        {
+            "name": "reimiMoose",
+            "password": "$5$rounds=535000$fMTF4rojixzoh6cG$SmTsPcr1fCfDBWZF0PoXXof1Cr0zE5bTpzZYjwrGKYB"
+        },
+        {
+            "name": "genseees",
+            "password": "$5$rounds=535000$4dZKZnAA7ucQrfrI$s0JtJrWyxfJy0m9wxByf8TUmeQN5snXmARVKzGF.d57"
+        },
+        {
+            "name": "realreese",
+            "password": "$5$rounds=535000$sxcbSP1vYBrCwBzJ$5afWoJ7LYoDzl7Cj.QBoOzehT3WO1jvdr.YBklO2SI7"
+        },
+        {
+            "name": "oyoy2",
+            "password": "$5$rounds=535000$Z2CjI.8dL352Zg1Y$ueRLTsw/FZjEXoxbCrnXwvfmCKFyCMgP5mGd9NFdjGC"
+        }
+    ]
+}

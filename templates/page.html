@@ -1,0 +1,15 @@
+<!--This is a page template to be extended in all other html files-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}" />
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <header>
+            {% include 'nav.html' %}
+        </header>
+        <div id="content"> {% block content %} {% endblock %} </div>
+    </body>
+</html>

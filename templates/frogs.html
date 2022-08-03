@@ -1,0 +1,18 @@
+<!--This page shows links about frogs-->
+{% extends 'page.html' %}
+
+{% block content %}
+    <div class="container">
+        <ul>
+            <li><a href="https://senecaparkzoo.org/animal-pages/fire-bellied-toad/">Fire bellied frog</a></li>
+            <li><a href="http://theworldofrogs.weebly.com/arthroleptidae.html">A different frog</a></li>
+            <li><a href="https://nhpbs.org/wild/Hyperoliidaegallery.asp">Frog from Africa</a></li>
+        </ul>
+    </div>
+    <div>
+        <img src="{{url_for('static', filename='/img/frog.jpg')}}" />
+        <img src="{{url_for('static', filename='/img/frog2.webp')}}" />
+        <img src="{{url_for('static', filename='/img/poisenFrog.jpg')}}" />
+        <img src="{{url_for('static', filename='/img/yellowFrog.webp')}}" />
+    </div>
+{% endblock %}
